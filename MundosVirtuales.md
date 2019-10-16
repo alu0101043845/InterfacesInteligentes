@@ -50,6 +50,8 @@ Responde a las siguiente cuestiones:
         
 - Como puedes realizar la proyección al espacio 2D
 
+        La proyección al espacio 2D, el que se muestra en las pantallas se obtiene mediante el uso de la cámara de Unity.
+        
 - Investiga qué son los quaternion.
 
         Son usados para representar las rotaciones u orientaciones de los objetos. 
@@ -57,6 +59,10 @@ Responde a las siguiente cuestiones:
         
 - Analiza la documentación de la cámara en Unity 3D: https://docs.unity3d.com/es/current/Manual/CamerasOverview.htmlhttps://docs.unity3d.com/es/current/Manual/class-Camera.html e identifica los conceptos explicados respecto a la cámara.
 
+        En la documentación se indican los dos tipos de cámaaras, la cámara perspectiva, la cual nos permite simular profundidad, viendo los objetos lejanos de menor tamaño que los cercanos. El otro tipo de cámara es la ortogonal, la cual es muy útil en arquitectura y en la creación de planos, ya que nos aporta información geométrica.
+        También se explica el concepto de volumen de vista, que es la región 3D que va a ser proyectada y la cual se ve, además se explica el fondo de vista, el cual nos permite simular el cielo.
+        Se explican bastantes más conceptos, así como funciones y atributos de la cámara, cómo trabajar con varias cámaras, etc.
+        
 - ¿Como puedes averiguar la matriz de proyección que se ha usado para proyectar la escena al último frame renderizado?.
 
         Camera.previousViewProjectionMatrix
