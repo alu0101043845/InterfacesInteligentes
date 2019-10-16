@@ -51,6 +51,7 @@ Responde a las siguiente cuestiones:
 - Como puedes realizar la proyección al espacio 2D
 
         La proyección al espacio 2D, el que se muestra en las pantallas se obtiene mediante el uso de la cámara de Unity.
+        WorldToViewportPoint (Vector3 position);
         
 - Investiga qué son los quaternion.
 
@@ -75,3 +76,5 @@ Responde a las siguiente cuestiones:
         
 - ¿Como puedes calcular las coordenadas del sistema de referencia de un objeto con las siguientes propiedades del Transform:?: 
  Position (3, 1, 1), Rotation (45, 0, 45)
+ 
+        El sistema de referencia del objeto ya está descrito respecto al del mundo con las propiedades Position y Rotation, que indican el la posición y la orientación de este.
