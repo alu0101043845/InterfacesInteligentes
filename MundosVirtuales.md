@@ -50,6 +50,8 @@ Responde a las siguiente cuestiones:
 
 - Investiga qué son los quaternion.
 
+        Son usados para representar las rotaciones u orientaciones de los objetos. Permiten evitar los Gimbal Lock pero no pueden representar una rotación que exceda los 180 grados.
+        
 - Analiza la documentación de la cámara en Unity 3D: https://docs.unity3d.com/es/current/Manual/CamerasOverview.htmlhttps://docs.unity3d.com/es/current/Manual/class-Camera.html e identifica los conceptos explicados respecto a la cámara.
 
 - ¿Como puedes averiguar la matriz de proyección que se ha usado para proyectar la escena al último frame renderizado?.
