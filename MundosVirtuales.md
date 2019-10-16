@@ -45,19 +45,27 @@ Responde a las siguiente cuestiones:
         No se obtiene el mismo resultado, ya que el desplazamiento se hace en otras direcciones.
         
 - Como puedes obtener la distancia al plano cerca del volumen de vista
-
+        
+        Camera.nearClipPlane
+        
 - Como puedes realizar la proyección al espacio 2D
 
 - Investiga qué son los quaternion.
 
-        Son usados para representar las rotaciones u orientaciones de los objetos. Permiten evitar los Gimbal Lock pero no pueden representar una rotación que exceda los 180 grados.
+        Son usados para representar las rotaciones u orientaciones de los objetos. 
+        Permiten evitar los Gimbal Lock pero no pueden representar una rotación que exceda los 180 grados.
         
 - Analiza la documentación de la cámara en Unity 3D: https://docs.unity3d.com/es/current/Manual/CamerasOverview.htmlhttps://docs.unity3d.com/es/current/Manual/class-Camera.html e identifica los conceptos explicados respecto a la cámara.
 
 - ¿Como puedes averiguar la matriz de proyección que se ha usado para proyectar la escena al último frame renderizado?.
 
+        Camera.previousViewProjectionMatrix
+        
 - ¿Cómo puedes obtener la matriz de transformación entre el sistema de coordenadas local y el mundial?.
-
+        
+        Transform.worldToLocalMatrix
+                
+        Transform.localToWorldMatrix
+        
 - ¿Como puedes calcular las coordenadas del sistema de referencia de un objeto con las siguientes propiedades del Transform:?: 
-
-- Position (3, 1, 1), Rotation (45, 0, 45)
+ Position (3, 1, 1), Rotation (45, 0, 45)
