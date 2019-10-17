@@ -1,2 +1,2 @@
 
-<img src="./MovementGif.gif" width="600">
+<img src="./MovementGif.gif" width="800">
