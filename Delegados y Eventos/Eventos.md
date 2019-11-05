@@ -1,7 +1,6 @@
 # Físicas
-En la escena hay un jugador que es el tigre con el tag "Player", un rigidbody que tiene el script TigerBehaviourScript.cs, el cual se mueve mediante fuerzas, y gira también mediante estas. Hay una esfera rigidbody con un collider que estará estática y otra que además tendrá el script RandomSphereBehaviourScript.cs, que permite a la esfera moverse de forma aleatoria. Existen 4 cilindros que son rigidbody con collider static, con el script CilindroBehaviourScript.cs, que hace que los cilindros cambien de color al entrar en colisión, al quedarse en colisión y al salir de colisión. 
+En la escena hay un jugador que es el tigre con el tag "Player" y como en la práctica anterior se moverá por fuerzas, 3 esferas rigidbody con el tag "GoodItem", 2 cápsulas rigidbody con el tag "badNPC", un foco con el tag "Spotlight", y finalmente la cámara, que esta vez la comentamos porque tendrá asignado el script "GameControllerBehaviourScript.cs" que se encargará de llamar eventos y controlar la llamada de la tecla "F" que al ser pulsada enciende o apaga el foco.
 
-También se ha añadido un cubo rigidbody, con un collider y con el script PhysicCubeBehaviourScript.cs que permite moverla mediante fuerzas con las teclas: I, L, J, M, además de aumentar un contador cada vez que colisiona. Para que los objetos no salgan del terreno se han creado "paredes" con GameObject empty static y añadiéndo un collider.
-
+El tigre al colisionar con las esferas incrementa la fuerza con la que se mueve y al chocar con las cápsulas se reduce, esto se realiza gracias al script "TigerBehaviourScript.cs". De la misma forma las cápsulas cambiarán de color al chocar con el jugador y hará uso del script "BadLemonBehaviourScript.cs". 
 ## Ejecución
-<img src="./ejecucionFisicas.gif" width="800">
+<img src="./p3.gif" width="800">
